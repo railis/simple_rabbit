@@ -1,6 +1,6 @@
 # SimpleRabbit
 
-Simple utility to send / consume messages via RabbitMQ, based on [ruby-amqp/bunny gem](https://github.com/ruby-amqp/bunny)
+Simple utility to send / consume messages via RabbitMQ, based on [ruby-amqp/bunny](https://github.com/ruby-amqp/bunny) ruby gem.
 
 ## Installation
 
