@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/railis/simple_rabbit"
 
   s.name = "simple_rabbit"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.date = '2017-11-10'
   s.summary = "Simple Rabbit"
   s.description = "Ruby gem allowing simple RabbitMQ message sending and consuming"
