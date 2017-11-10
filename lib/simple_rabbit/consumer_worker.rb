@@ -11,7 +11,8 @@ module SimpleRabbit
           begin
             block.call(body)
             $simplerabbit_channel.ack(delivery_info.delivery_tag)
-          rescue
+          rescue => e
+            puts "\n\n#{e.message}\n\n#{e.backtrace.join("\n")}\n\n"
           end
         end
       rescue Interrupt => _
